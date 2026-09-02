@@ -42,7 +42,7 @@ How many appointments are scheduled for each doctor?
 
 Sample table:Appointments Table
 
-<img width="712" height="711" alt="image" src="https://github.com/user-attachments/assets/1fa2d3e0-d756-4d79-873c-9d540658302d" />
+<img width="983" height="166" alt="image" src="https://github.com/user-attachments/assets/66da647f-cf07-4215-93a7-f7f9083f14ea" />
 
 
 For example:
@@ -64,7 +64,8 @@ GROUP BY DoctorID;
 ```
 
 **Output:**
-<img width="969" height="154" alt="image" src="https://github.com/user-attachments/assets/24a37bce-70c5-4b88-a137-0d93b1e0694e" />
+
+<img width="712" height="711" alt="image" src="https://github.com/user-attachments/assets/ad5b9c60-f5fe-4ef6-afc0-4659e33a3fea" />
 
 
 **Question 2**
@@ -73,7 +74,7 @@ How many medical records does each doctor have?
 
 Sample table:MedicalRecords Table
 
-<img width="619" height="708" alt="image" src="https://github.com/user-attachments/assets/5d983ae8-764f-4f8d-98ad-06202ed7d042" />
+<img width="969" height="154" alt="image" src="https://github.com/user-attachments/assets/02c6443a-6b1e-4d7c-9fc8-a7e10c66a24b" />
 
 
 For example:
@@ -96,7 +97,7 @@ GROUP BY DoctorID;
 ```
 
 **Output:**
-
+<img width="619" height="708" alt="image" src="https://github.com/user-attachments/assets/aac7d9d0-08e1-49d8-807d-27be9cf0ccfb" />
 
 
 **Question 3**
@@ -105,7 +106,7 @@ How many doctors specialize in each medical specialty?
 
 Sample table:Doctors Table
 
-
+<img width="982" height="160" alt="image" src="https://github.com/user-attachments/assets/f126d293-b3a7-4d1a-a210-adb3559638c6" />
 
 
 For example:
@@ -130,7 +131,7 @@ GROUP BY Specialty;
 
 **Output:**
 
-<img width="718" height="759" alt="image" src="https://github.com/user-attachments/assets/aa7c0c8c-43cc-4d2f-9297-d251bdfad0ca" />
+<img width="718" height="759" alt="image" src="https://github.com/user-attachments/assets/0df74e09-0152-49ff-813e-f39cc92f24e2" />
 
 
 **Question 4**
@@ -166,7 +167,10 @@ WHERE price>0.5;
 
 
 **Output:**
-<img width="581" height="384" alt="image" src="https://github.com/user-attachments/assets/01adc44e-0bfa-47a1-a6e2-3efcb022ece0" />
+
+<img width="581" height="384" alt="image" src="https://github.com/user-attachments/assets/ef41a895-ae08-48f6-ac17-489131720e54" />
+
+
 
 
 
@@ -198,7 +202,8 @@ WHERE city='Mumbai';
 ```
 
 **Output:**
-<img width="633" height="378" alt="image" src="https://github.com/user-attachments/assets/74a7e608-9ddb-4d90-a953-25b344f0a53c" />
+
+<img width="633" height="378" alt="image" src="https://github.com/user-attachments/assets/d76316ee-1f3d-4e77-922e-50fe439bb63b" />
 
 
 **Question 6**
@@ -227,7 +232,9 @@ FROM customer;
 ```
 
 **Output:**
-<img width="461" height="379" alt="image" src="https://github.com/user-attachments/assets/1215245c-e6c8-423f-b6c4-20dfc3ea7ca7" />
+
+
+<img width="461" height="379" alt="image" src="https://github.com/user-attachments/assets/b11a6672-3acd-44d4-8bbb-13b330d0e510" />
 
 
 **Question 7**
@@ -260,7 +267,9 @@ WHERE city='California';
 ```
 
 **Output:**
-<img width="581" height="377" alt="image" src="https://github.com/user-attachments/assets/1c7fb197-d782-4cae-a500-162d58e6f267" />
+
+
+<img width="581" height="377" alt="image" src="https://github.com/user-attachments/assets/10c27cbf-254d-4143-9280-a49ccf0d2032" />
 
 
 **Question 8**
@@ -269,7 +278,7 @@ Write a SQL query to identify the cities (addresses) where the average salary is
 
 Sample table: customer1
 
-<img width="581" height="377" alt="image" src="https://github.com/user-attachments/assets/007c0d2a-5208-4ef4-9272-764b5b4b4860" />
+<img width="785" height="148" alt="image" src="https://github.com/user-attachments/assets/a8ad6814-7e6c-467f-ab83-3b0fde583286" />
 
 
 For example:
@@ -290,7 +299,9 @@ HAVING AVG(salary)>5000;
 ```
 
 **Output:**
-<img width="785" height="148" alt="image" src="https://github.com/user-attachments/assets/61653e9a-9063-4b16-a178-954eb037b6a2" />
+
+
+<img width="599" height="504" alt="image" src="https://github.com/user-attachments/assets/331cf975-0441-424a-998a-649895be3700" />
 
 
 **Question 9**
@@ -299,7 +310,7 @@ Write the SQL query that accomplishes the grouping of data by age, calculates th
 
 Sample table: employee
 
-<img width="599" height="504" alt="image" src="https://github.com/user-attachments/assets/855273ea-e3a1-4a07-a15f-8c0a6f02294c" />
+<img width="788" height="174" alt="image" src="https://github.com/user-attachments/assets/290c4cf7-056e-40d9-a59c-8d1dadf46d2f" />
 
 
 For example:
@@ -318,7 +329,8 @@ HAVING AVG(income) BETWEEN 300000 AND 500000;
 ```
 
 **Output:**
-<img width="788" height="174" alt="image" src="https://github.com/user-attachments/assets/8a59fc89-5ad8-4688-a9b2-e2284fcfeb1f" />
+
+<img width="591" height="398" alt="image" src="https://github.com/user-attachments/assets/6a0f26f6-0981-4418-bd85-ad4bd73836c0" />
 
 
 **Question 10**
@@ -327,7 +339,7 @@ Write the SQL query that achieves the selection of product names and the maximum
 
 Sample table: products
 
-<img width="591" height="398" alt="image" src="https://github.com/user-attachments/assets/1cefbedd-f0d2-4494-be28-85e625400372" />
+<img width="789" height="178" alt="image" src="https://github.com/user-attachments/assets/c966ea68-54cc-4b9e-bc03-9b01733c628a" />
 
 
 For example:
@@ -347,10 +359,12 @@ HAVING MAX(price)>15;
 ```
 
 **Output:**
-<img width="789" height="178" alt="image" src="https://github.com/user-attachments/assets/225fe1d3-7ed5-42e2-82de-6b4912f96ad2" />
+
+<img width="845" height="450" alt="image" src="https://github.com/user-attachments/assets/7574f72a-ae4d-41b5-a3e6-2778d6c87737" />
 
 
 
 ## RESULT
 Thus, the SQL queries to implement aggregate functions, GROUP BY, and HAVING clause have been executed successfully.
+
 
